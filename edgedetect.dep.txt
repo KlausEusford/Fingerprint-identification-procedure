@@ -1,0 +1,33 @@
+# Microsoft Developer Studio Generated Dependency File, included by edgedetect.mak
+
+..\fmtbitmap\fmt_bitmap.cpp : \
+	"..\fmtbitmap\fmt_bitmap.h"\
+	"..\fmtbitmap\fvsfile.h"\
+	"..\fmtbitmap\fvsimage.cpp"\
+	"..\fmtbitmap\fvsimage.h"\
+	"..\fmtbitmap\vector.h"\
+	
+
+..\fmtbitmap\fvsfile.cpp : \
+	"..\fmtbitmap\fvsfile.h"\
+	"..\fmtbitmap\fvstypes.h"\
+	
+
+..\fmtbitmap\fvsimage.cpp : \
+	"..\fmtbitmap\vector.cpp"\
+	"..\fmtbitmap\vector.h"\
+	
+
+..\fmtbitmap\main.cpp : \
+	"..\fmtbitmap\fmt_bitmap.cpp"\
+	"..\fmtbitmap\fmt_bitmap.h"\
+	"..\fmtbitmap\fvsfile.h"\
+	"..\fmtbitmap\fvsimage.cpp"\
+	"..\fmtbitmap\fvsimage.h"\
+	"..\fmtbitmap\vector.h"\
+	
+
+..\fmtbitmap\vector.cpp : \
+	"..\fmtbitmap\fvstypes.h"\
+	"..\fmtbitmap\vector.h"\
+	
